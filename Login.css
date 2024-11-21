@@ -1,0 +1,250 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.background{
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(Images/IN-en-20241111-TRIFECTA-perspective_149877ab-fcbd-4e4f-a885-8d6174a1ee81_large.jpg);
+    
+}
+header{
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.837);
+
+}
+.header2{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid  black; */
+    height: 80px;
+    width: 99.6vw;
+    padding-left: 70px;
+    padding-right: 100px;
+    
+}
+.img1 img{ 
+    height: 90px;
+    width: 105px;
+    background: transparent;
+}
+.right{
+    padding: 10px;
+    display: flex;
+    gap: 15px;
+}
+#lang{
+    background-color: black;
+    color: white;
+}
+.box1{
+    padding: 4px;
+    font-size: 14px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: red;
+    color: white;
+}
+#signin{
+    text-decoration: none;
+    color:white ;
+}
+.data{
+    color: white;
+    /* border: 2px solid white; */
+    width: 40vw;
+    margin-top: 115px;
+    margin-left: 360px;
+    text-align: center;
+}
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url('path/to/netflix-sans.woff2') format('woff2'),
+         url('path/to/netflix-sans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.data h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+.font1{
+
+    font-family: 'Netflix Sans', sans-serif;
+}
+#para1{
+    font-size: 15px;
+}
+#para2{
+    font-size: 10px;
+}
+#button1{
+    background-color: red;
+    color: white;
+    height: 40px;
+    width: 130px;
+    font-family:'Netflix Sans', sans-serif;
+    font-size: 14px;
+}
+#mail{
+    height: 40px;
+    width: 300px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.837);
+}
+.gradient-curve {
+    position: relative;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    top: 130px;
+    width: 100vw;
+    height: 76px;
+    background: url(Images/Screenshot\ from\ 2024-11-20\ 00-19-52.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.trending{
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: black;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+#para3{
+    color: white;
+    font-size: 30px;
+    font-weight: 400 ;
+}
+.images{
+    display: flex;
+    gap: 15px;
+}
+.pic{
+    border-radius: 10px;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: linear;
+
+}
+.pic:hover{
+    transform: scale(1.1);
+}
+.reasontojoin{
+    /* border: 2px solid white; */
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    padding-right: 70px;
+   
+}
+.box{
+    height: 180px;
+    width: 380px;
+    background-image: linear-gradient(
+          135deg,
+          hsl(266deg 100% 10%) 13%,
+          hsl(277deg 100% 9%) 38%,
+          hsl(288deg 100% 8%) 51%,
+          hsl(299deg 100% 8%) 60%,
+          hsl(310deg 100% 9%) 68%,
+          hsl(318deg 100% 9%) 74%,
+          hsl(324deg 100% 10%) 80%,
+          hsl(329deg 100% 10%) 85%,
+          hsl(334deg 100% 11%) 89%,
+          hsl(339deg 100% 11%) 92%,
+          hsl(344deg 94% 11%) 96%,
+          hsl(351deg 87% 12%) 98%,
+          hsl(0deg 78% 13%) 100%
+        );
+    background-size: cover;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+h3{
+    color: white;
+}
+.insidebox p{
+    color: gray;
+    font-size: 12px;
+}
+.frequently{
+    background-color: black;
+}
+.insidefrequently{
+    /* border: 2px solid white; */
+    padding-left: 80px;
+    margin-bottom: 10px;
+}
+.faqs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.detailbox{
+    background-color: rgb(60, 60, 60);
+    height: 80px;
+    padding: 20px;
+    font-size: 20px;
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+}
+.detailbox1 [open]
+{
+    background-color: rgb(60, 60, 60);
+}
+details{
+    color: white;
+}
+.loginagain p{
+    color: white;
+    font-size: 11px;
+}
+.loginagain{
+    text-align: center;
+    width: 90vw;
+}
+#bottommail{
+    border: 2px solid white;
+    background-color: rgba(19, 19, 19, 0.507);
+    height: 40px;
+    width: 300px;
+    border: 1px solid white;
+}
+footer{
+    background-color: black;
+    padding-left: 80px;
+}
+.call p{
+    font-size: 12px;
+    color: gray;
+}
+.links a{
+    font-size: 12px;
+    color: gray;
+}
+table{
+    /* border: 2px solid white; */
+    padding: 10px;
+    border-spacing: 130px 10px;
+}
+.footerend p{
+    font-size: 12px;
+    color: gray;
+}
